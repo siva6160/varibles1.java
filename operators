@@ -1,0 +1,26 @@
+package siva2;
+
+import java.util.Scanner;
+
+public class vari2 {
+
+	public static void main(String[] args) {
+		int a,b;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Eneter a number");
+		a=sc.nextInt();
+		System.out.println("entre a number 2");
+		b=sc.nextInt();
+		System.out.println(a>b);
+		System.out.println(b>a);
+		System.out.println(a==b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a++);
+		System.out.println(++a);
+		System.out.println(a--);
+		System.out.println(++b);
+		System.out.println(b++);
+	}
+
+}
